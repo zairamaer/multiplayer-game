@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#joinForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#canvasContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 1px solid black;
+    background-image: url("../media/background.png");
+    background-size: cover;
+}
+
+#serverInfo {
+    text-align: center;
+}
+
+#register {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#connect {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
